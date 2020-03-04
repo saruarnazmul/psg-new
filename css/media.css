@@ -1,0 +1,252 @@
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+ /* heder start */
+ .back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 5px;
+}
+.m-t5{
+    margin-top: 15px;
+}
+
+.navbar-toggler{
+	padding: 5px;
+	margin-top: 10px;
+    border: 2px solid  #21b3a8 !important;
+    background-color: #21b3a8;
+}
+.navbar-light .navbar-toggler-icon i{
+	font-size: 25px;
+}
+
+.menu ul li a{
+	padding: 5px 0px;
+	font-size: 14px;
+
+}
+.menu ul li a:hover{
+	border-bottom: none;
+}
+/* b-content */
+.b-content {
+    padding: 0px;
+    background-image: url('../images/banner1_psgias.png');
+    position: relative;
+    z-index: 9999;
+    height: 70vh;
+    width: 100%;
+}
+.flag-uk, .flag-ger, .flag-in , .flag-au, .flag-us{
+    position: relative;
+    margin: 0;
+}
+.banner-content h2 {
+    font-size: 25px;
+}
+.btn-custom {
+    padding: 5px 20px;
+    margin: 10px 0;
+
+}
+.advance-s {
+    padding: 40px 25px;
+
+}
+/* logo */
+.logo{
+    text-align: center;
+}
+.stories-img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 60px;
+}
+.stories-content {
+    margin: 0px;
+}
+   /* header end */
+/* common header start */
+.common-header p {
+    font-size: 20px;
+}
+
+.btn-sign {
+    margin-left: 105px;
+    padding: 5px 15px;
+}
+.form-control-custom {
+    padding: 15px 10px;
+        margin: 15px auto;
+}
+#carouselExampleControls2 .carousel-control-prev {
+    margin-left: 80%;
+}
+#carouselExampleControls3 .carousel-control-prev {
+    margin-left: 80%;
+}
+/* btn sign */
+/* footer */
+.
+/* footer */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #carouselExampleControls2 .carousel-control-prev {
+        margin-left: 85%;
+    }
+    #carouselExampleControls3 .carousel-control-prev {
+        margin-left: 85%;
+    }
+    .b-content {
+        padding: 0px;
+        background-image: url('../images/banner1_psgias.png');
+        position: relative;
+        z-index: 9999;
+        height: 70vh;
+        width: 100%;
+    }
+    .stories-img {
+        width: 180px;
+        height: 180px;
+        position: relative;
+        margin-top: 0px;
+        margin-left: 150px;
+    }
+    .stories-content {
+        margin: 0px;
+    }
+    .m-t5{
+        margin-top: 15px;
+    }
+    .navbar-toggler{
+        padding: 5px;
+        margin-top: 10px;
+        border: 2px solid  #21b3a8 !important;
+        background-color: #21b3a8;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 849.98px) {
+  
+.menu ul li a:hover{
+	border-bottom: none;
+}
+
+   .contact-form {
+    margin-top: 25px;
+}
+.btn-sign {
+    margin: 0;
+    margin-left: 8rem;
+}
+.btn-sign {
+    margin-left: 17rem;
+     margin-left: 8rem;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+.form-control-custom {
+    padding: 18px 10px;
+    font-weight: 400;
+    margin: 10px auto;
+}
+#carouselExampleControls2 .carousel-control-prev {
+    margin-left: 88%;
+}
+#carouselExampleControls3 .carousel-control-prev {
+    margin-left: 88%;
+}
+/* sign end */
+.stories-img {
+    margin-top: 60px;
+    margin-left: 1rem;
+}
+.navbar-toggler{
+	padding: 5px;
+	margin-top: 10px;
+    border: 2px solid  #21b3a8 !important;
+    background-color: #21b3a8;
+}
+
+	}
+@media (min-width: 850px) and (max-width: 940.98px){
+  
+}
+
+@media (min-width: 941px) and (max-width: 991.98px){
+      
+    }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	
+.form-control-custom {
+    padding: 20px 15px;
+    font-weight: 500;
+    margin: 16px auto;
+    background-color: #3b4b6b;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-sign{
+	margin: 0;
+	margin: 15px 0 15px 11rem ;
+}
+
+   
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ .logo-header img {
+    margin-left: 55px;
+}
+
+
+}
+@media (max-width: 375px) {
+    
+    #carouselExampleControls2 .carousel-control-prev {
+        margin-left: 80%;
+    }
+    #carouselExampleControls3 .carousel-control-prev {
+        margin-left: 80%;
+    }
+    .carousel-control-next {
+        font-size: 13px;
+        width: 25px;
+        height: 25px;
+        top: -45px;
+    }
+    #carouselExampleControls2 .carousel-control-prev, #carouselExampleControls2 .carousel-control-next {
+        font-size: 13px;
+        width: 25px;
+        height: 25px;
+        top: -45px;
+    }
+    #carouselExampleControls3 .carousel-control-prev, #carouselExampleControls3 .carousel-control-next {
+        font-size: 13px;
+        width: 25px;
+        height: 25px;
+        top: -45px;
+    }
+    .commom-title h3 {
+        font-size: 25px;
+        border-left: 2px solid #e78800;
+        padding: 5px 0 5px 5px;
+    }
+    .commom-title p {
+        font-size: 14px;
+    }
+   }
